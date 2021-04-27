@@ -16,7 +16,7 @@ jobs:
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
           name: bhavyadoc/github-pipeline
-          username: ${{secrets.DOCKER_USERNAME}}
+          username: ${{secrets.DOCKER_USER_NAME}}
           password: ${{secrets.DOCKER_PASSWORD}}
 
 
